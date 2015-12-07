@@ -1,0 +1,19 @@
+{
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 2,
+  "translate_tabs_to_spaces": true,
+	"reindent_on_save":
+	[
+		"js",
+		"json",
+		"html",
+		"css",
+		"scss",
+		"ejs",
+		"xml"
+	]
+}
