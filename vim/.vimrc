@@ -2,6 +2,7 @@
 
 " Enable modern Vim features not compatible with Vi spec.
 set nocompatible
+filetype plugin indent on
 
 set nocompatible
 set modelines=0
