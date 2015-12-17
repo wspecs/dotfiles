@@ -59,3 +59,4 @@ nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
 syntax on
+execute pathogen#infect()
