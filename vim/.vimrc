@@ -55,20 +55,18 @@ inoremap <F1> <ESC>
 nnoremap <F1> <ESC>
 vnoremap <F1> <ESC>
 
-
-
 syntax on
 execute pathogen#infect()
 
-
 " Emmet configuration
+" ===================
 let g:user_emmet_mode='a'
 let g:user_emmet_install_global = 0
 let g:user_emmet_leader_key='<C-M>'
 autocmd FileType html,css,js EmmetInstall
 
-
-" NerdTree configs
+" NerdTree configuration
+" ======================
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 autocmd StdinReadPre * let s:std_in=1
