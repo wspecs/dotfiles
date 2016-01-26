@@ -1,19 +1,5 @@
 " Welcome to Vim (http://go/vim).
 " =============================== "
-" Enable modern Vim features not compatible with Vi spec.
-set nocompatible
-
-" Use the 'google' package by default (see http://go/vim/packages).
-source /usr/share/vim/google/google.vim
-
-
-" All of your plugins must be added before the following line.
-
-" Enable file type based indent configuration and syntax highlighting.
-" filetype plugin indent on
-" filetype off
-" call pathogen#runtime_append_all_bundles()
-" filetype plugin indent on
 
 set nocompatible
 set modelines=0
