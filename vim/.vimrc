@@ -1,15 +1,5 @@
 " Welcome to Vim (http://go/vim).
-"
-" If you see this file, your homedir was just created on this workstation.
-" That means either you are new to Google (in that case, welcome!) or you
-" got yourself a faster machine.
-" Either way, the main goal of this configuration is to help you be more
-" productive; if you have ideas, praise or complaints, direct them to
-" vi-users@google.com (http://g/vi-users). We'd especially like to hear from you
-" if you can think of ways to make this configuration better for the next
-" Noogler.
-" If you want to learn more about Vim at Google, see http://go/vimintro.
-
+" =============================== "
 " Enable modern Vim features not compatible with Vi spec.
 set nocompatible
 
