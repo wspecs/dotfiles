@@ -1,6 +1,7 @@
 # wspecs compiled directories #
 www
 .sass-cache
+.git
 
 # Compiled source #
 ###################
