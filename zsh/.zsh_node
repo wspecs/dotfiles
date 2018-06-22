@@ -3,7 +3,7 @@ new-module() {
 }
 
 patch() {
-  node-readme && npm run build && npm test
+  tsc && node-readme && npm run build && npm test
   push_to_git $1
   NEW_VERSION=$(npm version patch -m $1)
   push_to_git "published $NEW_VERSION"
@@ -11,7 +11,7 @@ patch() {
 }
 
 minor() {
-  node-readme && npm run build && npm test
+  tsc && node-readme && npm run build && npm test
   push_to_git $1
   NEW_VERSION=$(npm version minor -m $1)
   push_to_git "published $NEW_VERSION"
