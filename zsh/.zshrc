@@ -58,3 +58,26 @@ push_to_git() {
   git commit -m $1
   git push
 }
+
+# =========================
+# Node ZSH Helper methods
+# =========================
+new-module() {
+  tsm-starter $1 --config=~/.tsm-starter.json --destination=$(pwd)/$1
+}
+
+patch() {
+  tsc && node-readme && npm run build && npm test
+  push_to_git $1
+  NEW_VERSION=$(npm version patch -m $1)
+  push_to_git "published $NEW_VERSION"
+  npm publish
+}
+
+minor() {
+  tsc && node-readme && npm run build && npm test
+  push_to_git $1
+  NEW_VERSION=$(npm version minor -m $1)
+  push_to_git "published $NEW_VERSION"
+  npm publish
+}
