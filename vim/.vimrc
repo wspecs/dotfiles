@@ -1,6 +1,11 @@
 " Welcome to Vim (http://go/vim).
 " =============================== "
 
+nmap <c-c> <esc>
+imap <c-c> <esc>
+vmap <c-c> <esc>
+omap <c-c> <esc>
+
 set nocompatible
 set modelines=0
 set tabstop=2
