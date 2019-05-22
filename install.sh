@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cp ~
-cp ~/dotfiles/.vimrc ~/.vimrc
-cp ~/dotfiles/.zshrc ~/.zshrc
+cp ~/dotfiles/vim/.vimrc ~/.vimrc
+cp ~/dotfiles/zsh/.zshrc ~/.zshrc
