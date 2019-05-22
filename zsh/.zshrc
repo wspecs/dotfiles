@@ -1,6 +1,48 @@
+# If you come from bash you might have to change your $PATH.
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-## Node ZSH Helper methods
+# Path to your oh-my-zsh installation.
+export ZSH="/home/wendly/.oh-my-zsh"
 
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
+
+# Uncomment the following line to automatically update without prompting.
+# DISABLE_UPDATE_PROMPT="true"
+
+# Which plugins would you like to load?
+# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+  docker
+  docker-compose
+  git
+  sudo
+  tmux
+  ubuntu
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# User configuration
+
+ls='ls --color=tty -l'
+grep='grep  --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}'
+d='dirs -v | head -10'
+
+alias -g G='| grep -i'
+
+# =========================
+# Node ZSH Helper methods
+# =========================
 git_init() {
   git init
   git add --all
