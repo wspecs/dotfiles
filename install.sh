@@ -8,5 +8,5 @@ echo "Replaced vimrc"
 cp ~/dotfiles/zsh/.zshrc ~/.zshrc
 echo "Replaced vimrc"
 
-rm -rf dotfiles
+rm -rf ~/dotfiles
 echo "Done"
