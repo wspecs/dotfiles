@@ -41,7 +41,7 @@ d='dirs -v | head -10'
 alias -g G='| grep -i'
 
 # =========================
-# Node ZSH Helper methods
+# Git ZSH Helper methods
 # =========================
 git_init() {
   git init
