@@ -1,6 +1,8 @@
 " Welcome to Vim (http://go/vim).
 " =============================== "
 
+" Use Control+C for escape
+
 nmap <c-c> <esc>
 imap <c-c> <esc>
 vmap <c-c> <esc>
