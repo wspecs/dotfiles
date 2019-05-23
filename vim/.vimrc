@@ -8,6 +8,9 @@ imap <c-c> <esc>
 vmap <c-c> <esc>
 omap <c-c> <esc>
 
+" Use ;; for escape
+imap ;; <ESC>¬
+
 set nocompatible
 set modelines=0
 set tabstop=2
