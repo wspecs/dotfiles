@@ -1,5 +1,7 @@
 # wspecs compiled directories #
 www
+dist
+public_html
 .sass-cache
 .git
 
