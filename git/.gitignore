@@ -4,6 +4,7 @@ dist
 public_html
 .sass-cache
 .git
+.env
 
 # Compiled source #
 ###################
