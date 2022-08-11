@@ -8,6 +8,40 @@ imap <c-c> <esc>
 vmap <c-c> <esc>
 omap <c-c> <esc>
 
+" Map Colemak keys in alphabetical order.
+noremap d g
+noremap e k
+noremap f e
+noremap g t
+noremap i l
+noremap j y
+noremap k n
+noremap l u
+noremap n j
+noremap o p
+noremap p r
+noremap r s
+noremap s d
+noremap t f
+noremap u i
+noremap y o
+noremap D G
+noremap E K
+noremap F E
+noremap G T
+noremap I L
+noremap J Y
+noremap K N
+noremap L U
+noremap N J
+noremap O P
+noremap P R
+noremap R S
+noremap S D
+noremap T F
+noremap U I
+noremap Y O
+
 " Use ;; for escape
 imap ;; <ESC>¬
 
@@ -33,6 +67,10 @@ set backspace=indent,eol,start
 set laststatus=2
 set relativenumber
 set undofile
+
+" Store temporary files in .vim to keep the working directories clean.
+set directory=~/.vim/swap
+set undodir=~/.vim/undo
 
 nnoremap / /\v
 vnoremap / /\v
