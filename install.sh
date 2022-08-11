@@ -27,12 +27,15 @@ set -o xtrace
 
 echo Installing Pathogen for vim
 mkdir -p ~/.vim/autoload ~/.vim/bundle
+rm -rf ~/.vim/autoload/pathogen.vim
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 
 echo Installing emmet for vim
+rm -rf ~/.vim/bundle/emmet-vim
 git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
 
 echo Installing nerdtree
+rm -rf ~/.vim/bundle/nerdtree
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 
 # exec: replace current process with chezmoi init
