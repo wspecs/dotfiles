@@ -38,9 +38,9 @@ echo Installing nerdtree
 rm -rf ~/.vim/bundle/nerdtree
 git clone https://github.com/preservim/nerdtree.git ~/.vim/bundle/nerdtree
 
-echo Adding vim swap and undo file
-touch ~/.vim/swap
-touch ~/.vim/undo
+echo Adding vim swap and undo directories
+mkdir -p ~/.vim/swap
+mkdir -p ~/.vim/undo
 
 # exec: replace current process with chezmoi init
 exec "$chezmoi" init --apply "--source=${script_dir}"
