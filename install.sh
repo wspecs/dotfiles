@@ -44,3 +44,5 @@ mkdir -p ~/.vim/undo
 
 # exec: replace current process with chezmoi init
 exec "$chezmoi" init --apply "--source=${script_dir}"
+
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
